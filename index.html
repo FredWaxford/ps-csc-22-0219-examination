@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+n    <head>
+        <meta charset="UTF-8" />
+        <title>My Dream House</title>
+        <script src="https://aframe.io/releases/1.6.0/aframe.min.js"></script>
+    </head>
+    <body>
+        <a-scene>
+            <!-- Asset Management -->
+            <a-assets>
+               <img src="forest/textures/grasss_baseColor.jpeg" id="grass">
+               <img src="forest/textures/Sunny-sky.avif" id="sky">
+                <a-asset-item src="forest/scene.gltf" id="forest"></a-asset-item>
+                <a-asset-item src="amc_matador_sedan/scene.gltf" id="car"></a-asset-item>
+                <a-asset-item src="Myhome/Myhome.gltf" id="house"></a-asset-item>
+            </a-assets>
+               <!-- forest -->
+                <a-entity gltf-model="#forest"
+                            position="21 0 -65"
+                               rotation="0 0 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                                 <a-entity gltf-model="#forest"
+                            position="60 0 -64"
+                               rotation="0 0 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                                <a-entity gltf-model="#forest"
+                            position="4 0 -65"
+                               rotation="0 0 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                               <a-entity gltf-model="#forest"
+                            position="58 0 -18.2"
+                               rotation="0 448 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                               <a-entity gltf-model="#forest"
+                            position="58 0 -5.1"
+                               rotation="0 448 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                               <a-entity gltf-model="#forest"
+                            position="58 0 10.8"
+                               rotation="0 90 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+               
+                <a-entity gltf-model="#forest"
+                            position="40 0 26.1"
+                               rotation="0 90 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                
+                 <a-entity gltf-model="#forest"
+                            position="3 0 26.5"
+                               rotation="0 -85 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+               
+                 <a-entity gltf-model="#forest"
+                            position="3 0 26.5"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                 <a-entity gltf-model="#forest"
+                            position="-18 0 26.5"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                
+               <a-entity gltf-model="#forest"
+                            position="-31 0 26.5"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                <a-entity gltf-model="#forest"
+                            position="-35 0 -5.1"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+               
+                <a-entity gltf-model="#forest"
+                            position="-35 0 -63.4"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                <a-entity gltf-model="#forest"
+                            position="-35 0 -17"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                
+                 <a-entity gltf-model="#forest"
+                            position="-35 0 -49"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                    <a-entity gltf-model="#forest"
+                            position="-35 0 -35"
+                               rotation="0 180 0"
+                                   scale="3 3 3"
+                               ></a-entity>
+                 
+                <!-- grass -->
+                <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 10 10"
+                            rotation="-90 0 0"
+                            scale="40 40 1"
+                                position="6 0 -32"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 10 10"
+                            rotation="-90 0 0"
+                            scale="20 20 1"
+                                position="36 0 -30"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 10 10"
+                            rotation="-90 0 0"
+                            scale="20 20 1"
+                                position="36 0 -50"
+                            ></a-plane>
+                            
+                             <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 10 10"
+                            rotation="-90 0 0"
+                            scale="20 10 1"
+                                position="36 0 -15"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 0 0"
+                            scale="5 10 1"
+                                position="16.5 0 -7"
+                            ></a-plane>
+                             <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 0 0"
+                            scale="5 10 1"
+                                position="11.5 0 -2"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 10 10"
+                            rotation="-90 0 0"
+                            scale="20 20 1"
+                                position="29 0 -2"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 10 10"
+                            rotation="-90 0 0"
+                            scale="20 20 1"
+                                position="-7 0 -2"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 0 0"
+                            scale="5 10 1"
+                                position="16.5 0 3"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 90 0"
+                            scale="5 5 1"
+                                position="6.5 0 -5"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 90 0"
+                            scale="5 5 1"
+                                position="6.5 0 0"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 90 0"
+                            scale="5 1 1"
+                                position="3.5 0 0"
+                            ></a-plane>
+                            <a-plane material=" color: 00ff00;
+                                    src: #grass;
+                                        repeat: 5 5"
+                            rotation="-90 90 0"
+                            scale="5 1 1"
+                                position="3.5 0 -5"
+                            ></a-plane>
+                <!-- house -->
+                <a-entity gltf-model="#house"
+                           position="4 0.1 -21"
+                               rotation="0 0 0"
+                                   scale="0.5 0.5 0.5"
+                               ></a-entity>
+                <!-- car -->
+                        <a-entity gltf-model="#car"
+                                position="-2 0 -25"
+                                    rotation="0 0 0"
+                                 scale=" 0.005 0.005 0.005"
+                                ></a-entity>
+                         <!-- sky -->
+                <a-sky src="#sky"
+                    rotation="84 0 0"
+                ></a-sky>   
+                 <!-- Camera -->  
+                  <a-entity id="rig"
+          position="0 1.6 5"
+          vertical-move>
+  <a-camera wasd-controls look-controls></a-camera>
+</a-entity> 
+      <!-- pool -->      
+       <a-plane
+  position="7 0 -9.6"
+  rotation="-92.0 0 0"
+  width="4.6"
+  height="3.2"
+  material="color: #00bfff; opacity: 0.6; transparent: true; side: double"
+  animation="property: rotation; 
+             dir: alternate; 
+             dur: 3000; 
+             to: -88 0 1; 
+             loop: true">
+</a-plane>
+   
+        </a-scene>
+        <script>
+AFRAME.registerComponent('vertical-move', {
+  schema: { speed: { default: 3 } },
+
+  init: function () {
+    this.keys = {};
+    window.addEventListener('keydown', (e) => {
+      this.keys[e.key.toLowerCase()] = true;
+    });
+    window.addEventListener('keyup', (e) => {
+      this.keys[e.key.toLowerCase()] = false;
+    });
+  },
+
+  tick: function (time, delta) {
+    let pos = this.el.object3D.position;
+    let distance = this.data.speed * (delta / 1000);
+
+    if (this.keys['n']) pos.y += distance;
+    if (this.keys['m']) pos.y -= distance;
+  }
+});
+</script>
+    </body>
+</html>
